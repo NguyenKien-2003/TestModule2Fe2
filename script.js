@@ -638,9 +638,6 @@ function showTab2(){
     content.innerHTML='';
     content.innerHTML =`
     <div class="container mt-5">
-        <a href="./index.html" class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2">
-            Quay về trang chủ
-          </a>
         <h1>Danh sách bài viết</h1>
         <ul id="postList" class="list-group"></ul>
     </div>
@@ -672,9 +669,6 @@ function showTab3(){
     content.innerHTML = '';
     content.innerHTML +=`
          <div class="container mt-5">
-        <a href="./index.html" class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2">
-            Quay về trang chủ
-          </a>
         <h1>Xem chi tiết bài viết</h1>      
         <div class="mb-3">
             <label for="postIdInput" class="form-label">Nhập ID bài viết</label>
@@ -725,9 +719,6 @@ function showTab4(){
     content.innerHTML="";
     content.innerHTML += `
     <div class="container mt-5">
-        <a href="./index.html" class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2">
-            Quay về trang chủ
-          </a>
         <h1>Tìm kiếm bài viết</h1>
         <div class="mb-3">
             <label for="emailInput" class="form-label">Nhập email người dùng</label>
